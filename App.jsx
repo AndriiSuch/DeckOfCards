@@ -58,7 +58,7 @@ function App() {
             return (
               <View>
                 <Text>{item.code}</Text>
-                <Image style={{width: 60, objectFit: "fill", height: 90}} source={{uri:item.image}} />
+                <Image style={{ width: 60, objectFit: "fill", height: 90 }} source={{ uri: item.image }} />
               </View>
             );
           })}
